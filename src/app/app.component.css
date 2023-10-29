@@ -1,0 +1,57 @@
+/* Style navigation links in the <nav> tag */
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    display: inline-block;
+  }
+  
+  nav a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Style the <nav> tag itself */
+  nav {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Optional: Add styles for the navigation bar such as centering the links */
+  nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  /* Style visited links */
+  a:visited {
+    color: #800080; /* Purple color for visited links */
+    
+  }
+  /* Style anchor (link) text */
+a {
+    font-size: medium; 
+    color: #007bff; 
+    transition: color 0.3s; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+  }
+  
+  /* Change link text color on hover */
+  a:hover {
+    color: #0056b3; /* Hovered link text color */
+  }
+  

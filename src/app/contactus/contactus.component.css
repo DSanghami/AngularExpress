@@ -1,0 +1,95 @@
+/* Style the form container */
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style form labels */
+  form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style form input fields */
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"],
+  form select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Style the form submit button */
+  form input[type="submit"],input[type = "button"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Style form element focus and hover effects */
+  form input[type="text"]:focus,
+  form input[type="email"]:focus,
+  form input[type="password"]:focus,
+  form select:focus {
+    border-color: #007bff;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Optional: Style form error messages */
+  .form-container .error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+ /* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style table headers */
+  table th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Style table rows */
+  table tr {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Style alternating rows with different background colors */
+  table tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  
+  /* Style table cells */
+  table td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Style hover effect for table rows */
+  table tr:hover {
+    background-color: #e0e0e0;
+    transition: background-color 0.2s;
+  }
+  

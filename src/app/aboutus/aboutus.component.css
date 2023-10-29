@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: rgba(221, 163, 163, 0.5); 
+}
+
+.about {
+  max-width: 800px; 
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255)(221, 163, 163, 0.5); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;  
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+b {
+  display: block;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.mission {
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  text-align: center; 
+}
+
+.mission h2 {
+  margin-bottom: 10px;
+}
+
+.team img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
